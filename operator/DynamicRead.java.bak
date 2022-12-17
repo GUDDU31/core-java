@@ -1,0 +1,28 @@
+import java.util.Scanner;
+ class DynamicRead
+	 {
+    public static void main(String[] args) 
+    {
+        Scanner s=new Scanner(System.in);
+        
+		System.out.println("Enter your name");
+        String name=s.next();
+        
+		System.out.println("Enter your id");
+		int id=s.nextInt();
+
+		System.out.println("Enter your phone number");
+		long phno=s.nextLong();
+
+		System.out.println("enter your salary");
+		Double sal=s.nextDouble();
+
+		System.out.println("My name is " + name);
+		System.out.println("id is " + id);
+		System.out.println("phone number " + phno);
+		System.out.println("my salary " + sal);
+       
+    
+    
+    }
+}
